@@ -1,0 +1,33 @@
+export const workProjects = [
+  {
+    id: 'ihss',
+    title: 'Indian Healthy\nSnacking Summit',
+    desc: 'Brand, report design, and event identity — built from zero in 60 days. 2024 & 2025.',
+    tag: 'Brand Identity · Event',
+    glyph: '✦',
+    href: '/work/ihss',
+    className: 'card-ihss',
+    rotate: '-0.8deg',
+  },
+  {
+    id: 'farmley',
+    title: 'Farmley.com\nWebsite Redesign',
+    desc: 'End-to-end redesign of a D2C snacking brand — three identities, one Shopify system.',
+    tag: 'UX · Brand · Shopify',
+    glyph: '◈',
+    href: '/work/farmley',
+    className: 'card-farmley',
+    rotate: '0.6deg',
+  },
+  {
+    id: 'mito',
+    title: 'MITO Health',
+    desc: 'Product design for a health-tech platform. Case study in progress.',
+    tag: 'Product Design',
+    glyph: '◎',
+    href: null,
+    className: 'card-mito',
+    rotate: '0.3deg',
+    comingSoon: true,
+  },
+]
